@@ -15,11 +15,8 @@
     /* Happy New Year */
     position: absolute;
     width: 300px;
-    height: 300px;
     left: 600px;
-    right: -600px;
     top: 150px;
-    bottom: -150px;
 }
 .banner-subtitle{
     font-family: Merriweather;
@@ -28,11 +25,8 @@
     /* New Year Party Celebration */
     position: absolute;
     width: 600px;
-    height: 200px;
     left: 450px;
-    right: -450px;
     top: 200px;
-    bottom: -200px;
 }
 
 /* holiday offer 60% */
@@ -58,4 +52,66 @@
     color: rgb(7, 2, 17);
     font-family: Inter;
     font-size: 32px;
+}
+
+/* party related styles */
+
+.party-container{
+    margin-top: 120px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.party-title{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 65px;
+    font-weight: 900;
+    text-align: left;
+
+    /* Welcome to midnight party */
+    position: absolute;
+    width: 500px;
+    /* height: 100px; */
+    left: 200px;
+    /* right: -900px; */
+    top: 50px;
+    /* bottom: -150px; */
+}
+
+.party-description{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+
+    position: absolute;
+    width: 700px;
+    left: 200px;
+    top: 280px;
+}
+
+.join{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+
+    position: absolute;
+    width: 700px;
+    left: 200px;
+    top: 400px;
+    border: none;
+    background: transparent;
+}
+
+.party-column2{
+/* Layer 1 */
+position: absolute;
+width: 400px;
+right: 150px;
+top: 50px;
 }
