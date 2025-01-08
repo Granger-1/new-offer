@@ -1,0 +1,61 @@
+/* shared styles */
+
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* banner styles */
+
+.banner-title{
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    /* Happy New Year */
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 600px;
+    right: -600px;
+    top: 150px;
+    bottom: -150px;
+}
+.banner-subtitle{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    /* New Year Party Celebration */
+    position: absolute;
+    width: 600px;
+    height: 200px;
+    left: 450px;
+    right: -450px;
+    top: 200px;
+    bottom: -200px;
+}
+
+/* holiday offer 60% */
+
+.offer-container{
+    text-align: center;
+}
+
+.sale{
+    color: red;
+    font-family: Inter;
+    font-size: 50px;
+    margin-top: 120px;
+}
+
+.sale-title{
+    color: red;
+    font-family: Inter;
+    font-size: 20px;
+}
+
+.category{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 32px;
+}
