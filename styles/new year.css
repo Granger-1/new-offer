@@ -115,3 +115,38 @@ width: 400px;
 right: 150px;
 top: 50px;
 }
+
+/* party time related styles */
+.party-time-container{
+    margin-top: 120px;
+    position:relative;
+    width: 1320px;
+    height: 482px;
+    left: 85px;
+    text-align: center;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+}
+
+.party-time{
+    padding-top: 65px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 200;
+}
+.party-time .red{
+    color: red;
+}
+.party-time-container button{
+    border-radius: 5px;
+    background: red;
+    border: 0px;
+    padding: 15px 35px;
+    color: white;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+/* offer coming soon */
